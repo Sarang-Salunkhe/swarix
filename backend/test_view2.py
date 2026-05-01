@@ -1,0 +1,1 @@
+import sys; sys.path.append('d:\Projects\swarix\backend'); import os; os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'core.settings'); import django; django.setup(); from django.test import RequestFactory; from music.views import search_music; request = RequestFactory().get('/api/search/?q=cyberpunk'); response = search_music(request); print(response.content)  
