@@ -137,3 +137,27 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+
+
+# -----------------------------
+# Python / Django
+# -----------------------------
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Django
+db.sqlite3
+
+# Env files
+.env
+
+# VS Code
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db

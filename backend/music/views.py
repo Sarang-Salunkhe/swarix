@@ -1,7 +1,6 @@
 import requests
 from django.http import JsonResponse
 
-API_KEY = "AIzaSyBCJfH_PK0RJRrs_qGZfGr7TccCvwm_5Uo"
 
 def search_music(request):
     print("API HIT 🔥")
